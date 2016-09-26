@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" total="6" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[browserName: firefox]]>
+    </line>
+    <line>
+      <![CDATA[browserName: chrome]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to homePage URL]]>
+    </line>
+    <line>
+      <![CDATA[Page URL --> http://www.amazon.in/]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to homePage URL]]>
+    </line>
+    <line>
+      <![CDATA[Page URL --> http://www.amazon.in/]]>
+    </line>
+    <line>
+      <![CDATA[URL is loaded]]>
+    </line>
+    <line>
+      <![CDATA[Checking whether is home page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[URL is loaded]]>
+    </line>
+    <line>
+      <![CDATA[Checking whether is home page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Yup, home page is correctly displayed]]>
+    </line>
+    <line>
+      <![CDATA[Closing the browser]]>
+    </line>
+    <line>
+      <![CDATA[browserName: firefox]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to homePage URL]]>
+    </line>
+    <line>
+      <![CDATA[Page URL --> http://www.amazon.in/]]>
+    </line>
+    <line>
+      <![CDATA[URL is loaded]]>
+    </line>
+    <line>
+      <![CDATA[Starting again..]]>
+    </line>
+    <line>
+      <![CDATA[Exception found. Unable to get the excel file.
+null]]>
+    </line>
+    <line>
+      <![CDATA[Product name: ]]>
+    </line>
+    <line>
+      <![CDATA[Initializing the homePage]]>
+    </line>
+    <line>
+      <![CDATA[Yup, home page is correctly displayed]]>
+    </line>
+    <line>
+      <![CDATA[Closing the browser]]>
+    </line>
+    <line>
+      <![CDATA[browserName: chrome]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to homePage URL]]>
+    </line>
+    <line>
+      <![CDATA[Page URL --> http://www.amazon.in/]]>
+    </line>
+    <line>
+      <![CDATA[Searched the product :]]>
+    </line>
+    <line>
+      <![CDATA[Present windowHandle is: {5bb5bd90-3e2c-48ae-b66b-2ad050742bed}]]>
+    </line>
+    <line>
+      <![CDATA[Trying to sort the items by popularity..]]>
+    </line>
+    <line>
+      <![CDATA[URL is loaded]]>
+    </line>
+    <line>
+      <![CDATA[Starting again..]]>
+    </line>
+    <line>
+      <![CDATA[Exception found. Unable to get the excel file.
+null]]>
+    </line>
+    <line>
+      <![CDATA[Product name: ]]>
+    </line>
+    <line>
+      <![CDATA[Initializing the homePage]]>
+    </line>
+    <line>
+      <![CDATA[Closing the browser]]>
+    </line>
+    <line>
+      <![CDATA[browserName: firefox]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to homePage URL]]>
+    </line>
+    <line>
+      <![CDATA[Page URL --> http://www.amazon.in/]]>
+    </line>
+    <line>
+      <![CDATA[Searched the product :]]>
+    </line>
+    <line>
+      <![CDATA[Present windowHandle is: CDwindow-c1a03b54-aa90-4766-a73c-b2ab9cc6c97c]]>
+    </line>
+    <line>
+      <![CDATA[Trying to sort the items by popularity..]]>
+    </line>
+    <line>
+      <![CDATA[URL is loaded]]>
+    </line>
+    <line>
+      <![CDATA[Trying to get the item name from the Excel..]]>
+    </line>
+    <line>
+      <![CDATA[Exception found. Unable to get the excel file.
+null]]>
+    </line>
+    <line>
+      <![CDATA[Received item name is : ]]>
+    </line>
+    <line>
+      <![CDATA[Searching the item: ]]>
+    </line>
+    <line>
+      <![CDATA[Item searching is performed ]]>
+    </line>
+    <line>
+      <![CDATA[Trying to see whether we are in Item search list page..]]>
+    </line>
+    <line>
+      <![CDATA[Closing the browser]]>
+    </line>
+    <line>
+      <![CDATA[browserName: chrome]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to homePage URL]]>
+    </line>
+    <line>
+      <![CDATA[Page URL --> http://www.amazon.in/]]>
+    </line>
+    <line>
+      <![CDATA[Closing the browser]]>
+    </line>
+    <line>
+      <![CDATA[URL is loaded]]>
+    </line>
+    <line>
+      <![CDATA[Trying to get the item name from the Excel..]]>
+    </line>
+    <line>
+      <![CDATA[Exception found. Unable to get the excel file.
+null]]>
+    </line>
+    <line>
+      <![CDATA[Received item name is : ]]>
+    </line>
+    <line>
+      <![CDATA[Searching the item: ]]>
+    </line>
+    <line>
+      <![CDATA[Item searching is performed ]]>
+    </line>
+    <line>
+      <![CDATA[Trying to see whether we are in Item search list page..]]>
+    </line>
+    <line>
+      <![CDATA[Closing the browser]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="148480" started-at="2016-09-25T09:06:58Z" finished-at="2016-09-25T09:09:27Z">
+    <groups>
+    </groups>
+    <test name="TestFF" duration-ms="102031" started-at="2016-09-25T09:06:58Z" finished-at="2016-09-25T09:08:40Z">
+      <class name="scripts.VerifyFilterAndSelectPopularItem">
+        <test-method status="PASS" signature="preCondition(org.testng.xml.XmlTest)[pri:0, instance:scripts.VerifyFilterAndSelectPopularItem@1593948d]" name="preCondition" is-config="true" duration-ms="16396" started-at="2016-09-25T14:37:19Z" finished-at="2016-09-25T14:37:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "TestFF" verbose:1[parameters:browser=>firefox][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=scripts.verifyItemSearchOnHomePage] [XmlClass class=scripts.VerifyFilterAndSelectPopularItem]  packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browserName: firefox]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to homePage URL]]>
+            </line>
+            <line>
+              <![CDATA[Page URL --> http://www.amazon.in/]]>
+            </line>
+            <line>
+              <![CDATA[URL is loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="FAIL" signature="testApplyingFilterAndSelectingPopular()[pri:1, instance:scripts.VerifyFilterAndSelectPopularItem@1593948d]" name="testApplyingFilterAndSelectingPopular" duration-ms="22509" started-at="2016-09-25T14:37:36Z" finished-at="2016-09-25T14:37:58Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"id","selector":"sort"}
+Command duration or timeout: 15.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'Guru', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 59d089f1-30dc-47a1-955d-8bd330aa045c
+*** Element info: {Using=id, value=sort}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"sort"}
+Command duration or timeout: 15.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'Guru', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 59d089f1-30dc-47a1-955d-8bd330aa045c
+*** Element info: {Using=id, value=sort}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy7.getTagName(Unknown Source)
+	at org.openqa.selenium.support.ui.Select.<init>(Select.java:44)
+	at pom.ItemsSearchedPage.sortByPopularity(ItemsSearchedPage.java:33)
+	at scripts.VerifyFilterAndSelectPopularItem.testApplyingFilterAndSelectingPopular(VerifyFilterAndSelectPopularItem.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"sort"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'Guru', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/All/AppData/Local/Temp/anonymous1391969696006638414webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/All/AppData/Local/Temp/anonymous1391969696006638414webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Starting again..]]>
+            </line>
+            <line>
+              <![CDATA[Exception found. Unable to get the excel file.
+null]]>
+            </line>
+            <line>
+              <![CDATA[Product name: ]]>
+            </line>
+            <line>
+              <![CDATA[Initializing the homePage]]>
+            </line>
+            <line>
+              <![CDATA[Searched the product :]]>
+            </line>
+            <line>
+              <![CDATA[Present windowHandle is: {5bb5bd90-3e2c-48ae-b66b-2ad050742bed}]]>
+            </line>
+            <line>
+              <![CDATA[Trying to sort the items by popularity..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testApplyingFilterAndSelectingPopular -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:scripts.VerifyFilterAndSelectPopularItem@1593948d]" name="CloseBrowser" is-config="true" duration-ms="2185" started-at="2016-09-25T14:37:58Z" finished-at="2016-09-25T14:38:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- scripts.VerifyFilterAndSelectPopularItem -->
+      <class name="scripts.verifyItemSearchOnHomePage">
+        <test-method status="PASS" signature="preCondition(org.testng.xml.XmlTest)[pri:0, instance:scripts.verifyItemSearchOnHomePage@482f8f11]" name="preCondition" is-config="true" duration-ms="18391" started-at="2016-09-25T14:36:58Z" finished-at="2016-09-25T14:37:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "TestFF" verbose:1[parameters:browser=>firefox][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=scripts.verifyItemSearchOnHomePage] [XmlClass class=scripts.VerifyFilterAndSelectPopularItem]  packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browserName: firefox]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to homePage URL]]>
+            </line>
+            <line>
+              <![CDATA[Page URL --> http://www.amazon.in/]]>
+            </line>
+            <line>
+              <![CDATA[URL is loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testVerifyHomePage()[pri:1, instance:scripts.verifyItemSearchOnHomePage@482f8f11]" name="testVerifyHomePage" duration-ms="162" started-at="2016-09-25T14:37:17Z" finished-at="2016-09-25T14:37:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Checking whether is home page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Yup, home page is correctly displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testVerifyHomePage -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:scripts.verifyItemSearchOnHomePage@482f8f11]" name="CloseBrowser" is-config="true" duration-ms="2492" started-at="2016-09-25T14:37:17Z" finished-at="2016-09-25T14:37:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="preCondition(org.testng.xml.XmlTest)[pri:0, instance:scripts.verifyItemSearchOnHomePage@482f8f11]" name="preCondition" is-config="true" duration-ms="16860" started-at="2016-09-25T14:38:00Z" finished-at="2016-09-25T14:38:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "TestFF" verbose:1[parameters:browser=>firefox][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=scripts.verifyItemSearchOnHomePage] [XmlClass class=scripts.VerifyFilterAndSelectPopularItem]  packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browserName: firefox]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to homePage URL]]>
+            </line>
+            <line>
+              <![CDATA[Page URL --> http://www.amazon.in/]]>
+            </line>
+            <line>
+              <![CDATA[URL is loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="FAIL" signature="testSearchProduct()[pri:2, instance:scripts.verifyItemSearchOnHomePage@482f8f11]" name="testSearchProduct" duration-ms="19689" started-at="2016-09-25T14:38:17Z" finished-at="2016-09-25T14:38:37Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"id","selector":"sort"}
+Command duration or timeout: 15.51 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'Guru', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ca86f695-57db-4600-868e-9ac503bfed3d
+*** Element info: {Using=id, value=sort}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"sort"}
+Command duration or timeout: 15.51 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'Guru', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ca86f695-57db-4600-868e-9ac503bfed3d
+*** Element info: {Using=id, value=sort}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy7.isDisplayed(Unknown Source)
+	at pom.ItemsSearchedPage.isItemsListPage(ItemsSearchedPage.java:54)
+	at scripts.verifyItemSearchOnHomePage.testSearchProduct(verifyItemSearchOnHomePage.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"sort"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'Guru', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/All/AppData/Local/Temp/anonymous8709371604433139100webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/All/AppData/Local/Temp/anonymous8709371604433139100webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to get the item name from the Excel..]]>
+            </line>
+            <line>
+              <![CDATA[Exception found. Unable to get the excel file.
+null]]>
+            </line>
+            <line>
+              <![CDATA[Received item name is : ]]>
+            </line>
+            <line>
+              <![CDATA[Searching the item: ]]>
+            </line>
+            <line>
+              <![CDATA[Item searching is performed ]]>
+            </line>
+            <line>
+              <![CDATA[Trying to see whether we are in Item search list page..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSearchProduct -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:scripts.verifyItemSearchOnHomePage@482f8f11]" name="CloseBrowser" is-config="true" duration-ms="3292" started-at="2016-09-25T14:38:37Z" finished-at="2016-09-25T14:38:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- scripts.verifyItemSearchOnHomePage -->
+    </test> <!-- TestFF -->
+    <test name="TestChrome" duration-ms="148480" started-at="2016-09-25T09:06:58Z" finished-at="2016-09-25T09:09:27Z">
+      <class name="scripts.VerifyFilterAndSelectPopularItem">
+        <test-method status="PASS" signature="preCondition(org.testng.xml.XmlTest)[pri:0, instance:scripts.VerifyFilterAndSelectPopularItem@2ef5e5e3]" name="preCondition" is-config="true" duration-ms="10684" started-at="2016-09-25T14:37:39Z" finished-at="2016-09-25T14:37:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "TestChrome" verbose:1[parameters:browser=>chrome][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=scripts.verifyItemSearchOnHomePage] [XmlClass class=scripts.VerifyFilterAndSelectPopularItem]  packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browserName: chrome]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to homePage URL]]>
+            </line>
+            <line>
+              <![CDATA[Page URL --> http://www.amazon.in/]]>
+            </line>
+            <line>
+              <![CDATA[URL is loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="FAIL" signature="testApplyingFilterAndSelectingPopular()[pri:1, instance:scripts.VerifyFilterAndSelectPopularItem@2ef5e5e3]" name="testApplyingFilterAndSelectingPopular" duration-ms="41672" started-at="2016-09-25T14:37:50Z" finished-at="2016-09-25T14:38:32Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"sort"}
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.23.409699 (49b0fa931cda1caad0ae15b7d1b68004acd05129),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'Guru', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.23.409699 (49b0fa931cda1caad0ae15b7d1b68004acd05129), userDataDir=C:\Users\All\AppData\Local\Temp\scoped_dir15324_5362}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=53.0.2785.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 90b227910f36125cb17d20cc6dba7e12
+*** Element info: {Using=id, value=sort}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"sort"}
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.23.409699 (49b0fa931cda1caad0ae15b7d1b68004acd05129),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'Guru', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.23.409699 (49b0fa931cda1caad0ae15b7d1b68004acd05129), userDataDir=C:\Users\All\AppData\Local\Temp\scoped_dir15324_5362}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=53.0.2785.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 90b227910f36125cb17d20cc6dba7e12
+*** Element info: {Using=id, value=sort}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy7.getTagName(Unknown Source)
+	at org.openqa.selenium.support.ui.Select.<init>(Select.java:44)
+	at pom.ItemsSearchedPage.sortByPopularity(ItemsSearchedPage.java:33)
+	at scripts.VerifyFilterAndSelectPopularItem.testApplyingFilterAndSelectingPopular(VerifyFilterAndSelectPopularItem.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Starting again..]]>
+            </line>
+            <line>
+              <![CDATA[Exception found. Unable to get the excel file.
+null]]>
+            </line>
+            <line>
+              <![CDATA[Product name: ]]>
+            </line>
+            <line>
+              <![CDATA[Initializing the homePage]]>
+            </line>
+            <line>
+              <![CDATA[Searched the product :]]>
+            </line>
+            <line>
+              <![CDATA[Present windowHandle is: CDwindow-c1a03b54-aa90-4766-a73c-b2ab9cc6c97c]]>
+            </line>
+            <line>
+              <![CDATA[Trying to sort the items by popularity..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testApplyingFilterAndSelectingPopular -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:scripts.VerifyFilterAndSelectPopularItem@2ef5e5e3]" name="CloseBrowser" is-config="true" duration-ms="1355" started-at="2016-09-25T14:38:32Z" finished-at="2016-09-25T14:38:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- scripts.VerifyFilterAndSelectPopularItem -->
+      <class name="scripts.verifyItemSearchOnHomePage">
+        <test-method status="PASS" signature="preCondition(org.testng.xml.XmlTest)[pri:0, instance:scripts.verifyItemSearchOnHomePage@643b1d11]" name="preCondition" is-config="true" duration-ms="16317" started-at="2016-09-25T14:36:58Z" finished-at="2016-09-25T14:37:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "TestChrome" verbose:1[parameters:browser=>chrome][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=scripts.verifyItemSearchOnHomePage] [XmlClass class=scripts.VerifyFilterAndSelectPopularItem]  packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browserName: chrome]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to homePage URL]]>
+            </line>
+            <line>
+              <![CDATA[Page URL --> http://www.amazon.in/]]>
+            </line>
+            <line>
+              <![CDATA[URL is loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testVerifyHomePage()[pri:1, instance:scripts.verifyItemSearchOnHomePage@643b1d11]" name="testVerifyHomePage" duration-ms="23445" started-at="2016-09-25T14:37:15Z" finished-at="2016-09-25T14:37:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Checking whether is home page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Yup, home page is correctly displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testVerifyHomePage -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:scripts.verifyItemSearchOnHomePage@643b1d11]" name="CloseBrowser" is-config="true" duration-ms="1377" started-at="2016-09-25T14:37:38Z" finished-at="2016-09-25T14:37:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="preCondition(org.testng.xml.XmlTest)[pri:0, instance:scripts.verifyItemSearchOnHomePage@643b1d11]" name="preCondition" is-config="true" duration-ms="10123" started-at="2016-09-25T14:38:33Z" finished-at="2016-09-25T14:38:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "TestChrome" verbose:1[parameters:browser=>chrome][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=scripts.verifyItemSearchOnHomePage] [XmlClass class=scripts.VerifyFilterAndSelectPopularItem]  packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browserName: chrome]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to homePage URL]]>
+            </line>
+            <line>
+              <![CDATA[Page URL --> http://www.amazon.in/]]>
+            </line>
+            <line>
+              <![CDATA[URL is loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="FAIL" signature="testSearchProduct()[pri:2, instance:scripts.verifyItemSearchOnHomePage@643b1d11]" name="testSearchProduct" duration-ms="41809" started-at="2016-09-25T14:38:43Z" finished-at="2016-09-25T14:39:25Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"sort"}
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.23.409699 (49b0fa931cda1caad0ae15b7d1b68004acd05129),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'Guru', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.23.409699 (49b0fa931cda1caad0ae15b7d1b68004acd05129), userDataDir=C:\Users\All\AppData\Local\Temp\scoped_dir8796_4934}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=53.0.2785.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 16363c6ff5d4219dd27f823ace7681a4
+*** Element info: {Using=id, value=sort}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"sort"}
+  (Session info: chrome=53.0.2785.116)
+  (Driver info: chromedriver=2.23.409699 (49b0fa931cda1caad0ae15b7d1b68004acd05129),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'Guru', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.23.409699 (49b0fa931cda1caad0ae15b7d1b68004acd05129), userDataDir=C:\Users\All\AppData\Local\Temp\scoped_dir8796_4934}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=53.0.2785.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 16363c6ff5d4219dd27f823ace7681a4
+*** Element info: {Using=id, value=sort}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy7.isDisplayed(Unknown Source)
+	at pom.ItemsSearchedPage.isItemsListPage(ItemsSearchedPage.java:54)
+	at scripts.verifyItemSearchOnHomePage.testSearchProduct(verifyItemSearchOnHomePage.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to get the item name from the Excel..]]>
+            </line>
+            <line>
+              <![CDATA[Exception found. Unable to get the excel file.
+null]]>
+            </line>
+            <line>
+              <![CDATA[Received item name is : ]]>
+            </line>
+            <line>
+              <![CDATA[Searching the item: ]]>
+            </line>
+            <line>
+              <![CDATA[Item searching is performed ]]>
+            </line>
+            <line>
+              <![CDATA[Trying to see whether we are in Item search list page..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSearchProduct -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:scripts.verifyItemSearchOnHomePage@643b1d11]" name="CloseBrowser" is-config="true" duration-ms="1665" started-at="2016-09-25T14:39:25Z" finished-at="2016-09-25T14:39:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- scripts.verifyItemSearchOnHomePage -->
+    </test> <!-- TestChrome -->
+  </suite> <!-- Suite -->
+</testng-results>

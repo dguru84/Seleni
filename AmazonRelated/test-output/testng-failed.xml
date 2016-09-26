@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="firefox"/>
+  <test name="TestFF(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="scripts.VerifyFilterAndSelectPopularItem">
+        <methods>
+          <include name="preCondition"/>
+          <include name="preCondition"/>
+          <include name="testApplyingFilterAndSelectingPopular"/>
+          <include name="CloseBrowser"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- scripts.VerifyFilterAndSelectPopularItem -->
+      <class name="scripts.verifyItemSearchOnHomePage">
+        <methods>
+          <include name="testSearchProduct"/>
+          <include name="preCondition"/>
+          <include name="preCondition"/>
+          <include name="CloseBrowser"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- scripts.verifyItemSearchOnHomePage -->
+    </classes>
+  </test> <!-- TestFF(failed) -->
+  <test name="TestChrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="scripts.VerifyFilterAndSelectPopularItem">
+        <methods>
+          <include name="preCondition"/>
+          <include name="preCondition"/>
+          <include name="testApplyingFilterAndSelectingPopular"/>
+          <include name="CloseBrowser"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- scripts.VerifyFilterAndSelectPopularItem -->
+      <class name="scripts.verifyItemSearchOnHomePage">
+        <methods>
+          <include name="testSearchProduct"/>
+          <include name="preCondition"/>
+          <include name="preCondition"/>
+          <include name="CloseBrowser"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- scripts.verifyItemSearchOnHomePage -->
+    </classes>
+  </test> <!-- TestChrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
